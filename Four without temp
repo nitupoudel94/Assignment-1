@@ -1,0 +1,30 @@
+public class Fourwithouttemp {
+
+		public static void main(String[] args) {
+			
+			int a = 1; 
+			int b = 2;
+			int c = 3;
+			int d = 4;
+			
+			System.out.println("Before Swapping");
+			System.out.println("a: "+a);
+			System.out.println("b: "+b);
+			System.out.println("c: "+c);
+			System.out.println("d: "+d);
+			
+			a = a+b;
+			b = a-b;
+			a = a-b;
+			c = c+b;
+			d = d+a;
+			
+			System.out.println("After Swapping");
+			System.out.println("a: "+a);
+			System.out.println("b: "+b);
+			System.out.println("c: "+c);
+			System.out.println("d: "+d);
+			
+		}
+
+	}
